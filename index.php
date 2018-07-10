@@ -40,8 +40,6 @@ if ($temperature > 0) {
 } elseif ($temperature < 0) {
     $temperature = "-" . $temperature;
 }
-
-
 ?>
 
 <!DOCTYPE html>
@@ -54,7 +52,7 @@ if ($temperature > 0) {
 <table>
     <tr>
         <td>
-            <font size="20"><?php echo $temperature; ?></font>
+            <span style="font-size:40pt;"><?php echo $temperature; ?></span>
         </td>
     </tr>
     <tr>
